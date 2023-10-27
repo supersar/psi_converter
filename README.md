@@ -1,5 +1,3 @@
-# Assignment
-
 The `PressureConverter` class converts a CSV with PSI readings and exports them into a time-series CSV with temperature records.
 
 
@@ -35,10 +33,3 @@ call the `convert` method to process your csv. Customize the filenames via the i
 ```
 converter.convert(input='input1.csv', output='test.csv')
 ``````
-
-## Future improvements
-
-If I had more time I'd work to make this a more extensible tool:
-1. create a py package 
-2. expand on the methods to process other formats like json
-3. allow to customize the output columns and data
